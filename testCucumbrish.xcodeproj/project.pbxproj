@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7507ECC0291EF143005E8163 /* testCucumbrishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507ECBF291EF143005E8163 /* testCucumbrishApp.swift */; };
+		7507ECC2291EF143005E8163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507ECC1291EF143005E8163 /* ContentView.swift */; };
+		7507ECC4291EF143005E8163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7507ECC3291EF143005E8163 /* Assets.xcassets */; };
+		7507ECC7291EF143005E8163 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7507ECC6291EF143005E8163 /* Preview Assets.xcassets */; };
+		7507ECD1291EF144005E8163 /* testCucumbrishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507ECD0291EF144005E8163 /* testCucumbrishTests.swift */; };
+		7507ECDB291EF144005E8163 /* testCucumbrishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507ECDA291EF144005E8163 /* testCucumbrishUITests.swift */; };
+		7507ECDD291EF144005E8163 /* testCucumbrishUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7507ECDC291EF144005E8163 /* testCucumbrishUITestsLaunchTests.swift */; };
+		755CC7452984D94B00F38E2A /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CC7442984D94B00F38E2A /* SignupView.swift */; };
+		755CC74929856C9500F38E2A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 755CC74B29856C9500F38E2A /* Localizable.strings */; };
+		755CC74E29856D1100F38E2A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CC74D29856D1100F38E2A /* HomeView.swift */; };
+		75954C3B291EF33800E0F01F /* CucumbrishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75954C3A291EF33800E0F01F /* CucumbrishLoader.m */; };
+		75954C3D291EF40300E0F01F /* CucumberishInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75954C3C291EF40300E0F01F /* CucumberishInitializer.swift */; };
+		75FE7BA9297D712200281251 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FE7BA8297D712200281251 /* loginView.swift */; };
+		75FE7BAA297D712200281251 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FE7BA8297D712200281251 /* loginView.swift */; };
+		81269F25B639A10656D06772 /* Pods_testCucumbrish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6976531C52785D94FF2D5C1 /* Pods_testCucumbrish.framework */; };
+		8AFF0B052D424A6ADEFF221C /* Pods_testCucumbrishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864D2D18CD89CA5BA5E44A2A /* Pods_testCucumbrishTests.framework */; };
+		FF823C7E59D2FFAA6F72AAC1 /* Pods_testCucumbrish_testCucumbrishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FAF782FD2E88127D5B2D2E /* Pods_testCucumbrish_testCucumbrishUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7507ECCD291EF144005E8163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7507ECB4291EF143005E8163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7507ECBB291EF143005E8163;
+			remoteInfo = testCucumbrish;
+		};
+		7507ECD7291EF144005E8163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7507ECB4291EF143005E8163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7507ECBB291EF143005E8163;
+			remoteInfo = testCucumbrish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A4B6C780385BCBE5D43BE0 /* Pods-testCucumbrish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCucumbrish.debug.xcconfig"; path = "Target Support Files/Pods-testCucumbrish/Pods-testCucumbrish.debug.xcconfig"; sourceTree = "<group>"; };
+		52583686951AD81F1A869A00 /* Pods-testCucumbrish-testCucumbrishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCucumbrish-testCucumbrishUITests.debug.xcconfig"; path = "Target Support Files/Pods-testCucumbrish-testCucumbrishUITests/Pods-testCucumbrish-testCucumbrishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68995A37239AD523D1007ACF /* Pods-testCucumbrish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCucumbrish.release.xcconfig"; path = "Target Support Files/Pods-testCucumbrish/Pods-testCucumbrish.release.xcconfig"; sourceTree = "<group>"; };
+		7507ECBC291EF143005E8163 /* testCucumbrish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCucumbrish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7507ECBF291EF143005E8163 /* testCucumbrishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCucumbrishApp.swift; sourceTree = "<group>"; };
+		7507ECC1291EF143005E8163 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7507ECC3291EF143005E8163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7507ECC6291EF143005E8163 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7507ECCC291EF144005E8163 /* testCucumbrishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCucumbrishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7507ECD0291EF144005E8163 /* testCucumbrishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCucumbrishTests.swift; sourceTree = "<group>"; };
+		7507ECD6291EF144005E8163 /* testCucumbrishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCucumbrishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7507ECDA291EF144005E8163 /* testCucumbrishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCucumbrishUITests.swift; sourceTree = "<group>"; };
+		7507ECDC291EF144005E8163 /* testCucumbrishUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCucumbrishUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		755CC7442984D94B00F38E2A /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		755CC74A29856C9500F38E2A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		755CC74C29856CA400F38E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		755CC74D29856D1100F38E2A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		75954C39291EF33800E0F01F /* testCucumbrishUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testCucumbrishUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		75954C3A291EF33800E0F01F /* CucumbrishLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumbrishLoader.m; sourceTree = "<group>"; };
+		75954C3C291EF40300E0F01F /* CucumberishInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberishInitializer.swift; sourceTree = "<group>"; };
+		75954C3E291EF53D00E0F01F /* TodoBdd .feature */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TodoBdd .feature"; sourceTree = "<group>"; };
+		75FE7BA8297D712200281251 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
+		75FE7BAB297DA10100281251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		85FAF782FD2E88127D5B2D2E /* Pods_testCucumbrish_testCucumbrishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCucumbrish_testCucumbrishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		864D2D18CD89CA5BA5E44A2A /* Pods_testCucumbrishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCucumbrishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3C860383522833CD4C4FD6 /* Pods-testCucumbrish-testCucumbrishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCucumbrish-testCucumbrishUITests.release.xcconfig"; path = "Target Support Files/Pods-testCucumbrish-testCucumbrishUITests/Pods-testCucumbrish-testCucumbrishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6976531C52785D94FF2D5C1 /* Pods_testCucumbrish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCucumbrish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F975108913B92C222DE69F /* Pods-testCucumbrishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCucumbrishTests.debug.xcconfig"; path = "Target Support Files/Pods-testCucumbrishTests/Pods-testCucumbrishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5E6C2214E5A210FD2D0254D /* Pods-testCucumbrishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCucumbrishTests.release.xcconfig"; path = "Target Support Files/Pods-testCucumbrishTests/Pods-testCucumbrishTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7507ECB9291EF143005E8163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81269F25B639A10656D06772 /* Pods_testCucumbrish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7507ECC9291EF144005E8163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFF0B052D424A6ADEFF221C /* Pods_testCucumbrishTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7507ECD3291EF144005E8163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF823C7E59D2FFAA6F72AAC1 /* Pods_testCucumbrish_testCucumbrishUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B24828685B9287DD998026E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04A4B6C780385BCBE5D43BE0 /* Pods-testCucumbrish.debug.xcconfig */,
+				68995A37239AD523D1007ACF /* Pods-testCucumbrish.release.xcconfig */,
+				52583686951AD81F1A869A00 /* Pods-testCucumbrish-testCucumbrishUITests.debug.xcconfig */,
+				9A3C860383522833CD4C4FD6 /* Pods-testCucumbrish-testCucumbrishUITests.release.xcconfig */,
+				E8F975108913B92C222DE69F /* Pods-testCucumbrishTests.debug.xcconfig */,
+				F5E6C2214E5A210FD2D0254D /* Pods-testCucumbrishTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7507ECB3291EF143005E8163 = {
+			isa = PBXGroup;
+			children = (
+				755CC74B29856C9500F38E2A /* Localizable.strings */,
+				7507ECBE291EF143005E8163 /* testCucumbrish */,
+				7507ECCF291EF144005E8163 /* testCucumbrishTests */,
+				7507ECD9291EF144005E8163 /* testCucumbrishUITests */,
+				7507ECBD291EF143005E8163 /* Products */,
+				1B24828685B9287DD998026E /* Pods */,
+				FDAA8D27A31F7529600E6562 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7507ECBD291EF143005E8163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7507ECBC291EF143005E8163 /* testCucumbrish.app */,
+				7507ECCC291EF144005E8163 /* testCucumbrishTests.xctest */,
+				7507ECD6291EF144005E8163 /* testCucumbrishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7507ECBE291EF143005E8163 /* testCucumbrish */ = {
+			isa = PBXGroup;
+			children = (
+				75FE7BAB297DA10100281251 /* Info.plist */,
+				755CC74629856A3300F38E2A /* HomeScreen */,
+				75FE7BA7297D6E7300281251 /* SignupScreen */,
+				75FE7BA6297D6E6500281251 /* LoginScreen */,
+				7507ECBF291EF143005E8163 /* testCucumbrishApp.swift */,
+				7507ECC1291EF143005E8163 /* ContentView.swift */,
+				7507ECC3291EF143005E8163 /* Assets.xcassets */,
+				7507ECC5291EF143005E8163 /* Preview Content */,
+			);
+			path = testCucumbrish;
+			sourceTree = "<group>";
+		};
+		7507ECC5291EF143005E8163 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7507ECC6291EF143005E8163 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7507ECCF291EF144005E8163 /* testCucumbrishTests */ = {
+			isa = PBXGroup;
+			children = (
+				7507ECD0291EF144005E8163 /* testCucumbrishTests.swift */,
+			);
+			path = testCucumbrishTests;
+			sourceTree = "<group>";
+		};
+		7507ECD9291EF144005E8163 /* testCucumbrishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75954C38291EF2CF00E0F01F /* Features */,
+				7507ECDA291EF144005E8163 /* testCucumbrishUITests.swift */,
+				7507ECDC291EF144005E8163 /* testCucumbrishUITestsLaunchTests.swift */,
+				75954C3A291EF33800E0F01F /* CucumbrishLoader.m */,
+				75954C39291EF33800E0F01F /* testCucumbrishUITests-Bridging-Header.h */,
+				75954C3C291EF40300E0F01F /* CucumberishInitializer.swift */,
+			);
+			path = testCucumbrishUITests;
+			sourceTree = "<group>";
+		};
+		755CC74629856A3300F38E2A /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				755CC74D29856D1100F38E2A /* HomeView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		75954C38291EF2CF00E0F01F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				75954C3E291EF53D00E0F01F /* TodoBdd .feature */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		75FE7BA6297D6E6500281251 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				75FE7BA8297D712200281251 /* loginView.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		75FE7BA7297D6E7300281251 /* SignupScreen */ = {
+			isa = PBXGroup;
+			children = (
+				755CC7442984D94B00F38E2A /* SignupView.swift */,
+			);
+			path = SignupScreen;
+			sourceTree = "<group>";
+		};
+		FDAA8D27A31F7529600E6562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6976531C52785D94FF2D5C1 /* Pods_testCucumbrish.framework */,
+				85FAF782FD2E88127D5B2D2E /* Pods_testCucumbrish_testCucumbrishUITests.framework */,
+				864D2D18CD89CA5BA5E44A2A /* Pods_testCucumbrishTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7507ECBB291EF143005E8163 /* testCucumbrish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7507ECE0291EF144005E8163 /* Build configuration list for PBXNativeTarget "testCucumbrish" */;
+			buildPhases = (
+				5AE3869459EE28589DC5FC6B /* [CP] Check Pods Manifest.lock */,
+				7507ECB8291EF143005E8163 /* Sources */,
+				7507ECB9291EF143005E8163 /* Frameworks */,
+				7507ECBA291EF143005E8163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testCucumbrish;
+			productName = testCucumbrish;
+			productReference = 7507ECBC291EF143005E8163 /* testCucumbrish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7507ECCB291EF144005E8163 /* testCucumbrishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7507ECE3291EF144005E8163 /* Build configuration list for PBXNativeTarget "testCucumbrishTests" */;
+			buildPhases = (
+				38CF9EAB71AB45C4526D6A6F /* [CP] Check Pods Manifest.lock */,
+				7507ECC8291EF144005E8163 /* Sources */,
+				7507ECC9291EF144005E8163 /* Frameworks */,
+				7507ECCA291EF144005E8163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7507ECCE291EF144005E8163 /* PBXTargetDependency */,
+			);
+			name = testCucumbrishTests;
+			productName = testCucumbrishTests;
+			productReference = 7507ECCC291EF144005E8163 /* testCucumbrishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7507ECD5291EF144005E8163 /* testCucumbrishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7507ECE6291EF144005E8163 /* Build configuration list for PBXNativeTarget "testCucumbrishUITests" */;
+			buildPhases = (
+				1EF4BB51EC6ACE1CEA2CBA23 /* [CP] Check Pods Manifest.lock */,
+				7507ECD2291EF144005E8163 /* Sources */,
+				7507ECD3291EF144005E8163 /* Frameworks */,
+				7507ECD4291EF144005E8163 /* Resources */,
+				0EE66984E098C848B7184CBF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7507ECD8291EF144005E8163 /* PBXTargetDependency */,
+			);
+			name = testCucumbrishUITests;
+			productName = testCucumbrishUITests;
+			productReference = 7507ECD6291EF144005E8163 /* testCucumbrishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7507ECB4291EF143005E8163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7507ECBB291EF143005E8163 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					7507ECCB291EF144005E8163 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 7507ECBB291EF143005E8163;
+					};
+					7507ECD5291EF144005E8163 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+						TestTargetID = 7507ECBB291EF143005E8163;
+					};
+				};
+			};
+			buildConfigurationList = 7507ECB7291EF143005E8163 /* Build configuration list for PBXProject "testCucumbrish" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 7507ECB3291EF143005E8163;
+			productRefGroup = 7507ECBD291EF143005E8163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7507ECBB291EF143005E8163 /* testCucumbrish */,
+				7507ECCB291EF144005E8163 /* testCucumbrishTests */,
+				7507ECD5291EF144005E8163 /* testCucumbrishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7507ECBA291EF143005E8163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7507ECC7291EF143005E8163 /* Preview Assets.xcassets in Resources */,
+				755CC74929856C9500F38E2A /* Localizable.strings in Resources */,
+				7507ECC4291EF143005E8163 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7507ECCA291EF144005E8163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7507ECD4291EF144005E8163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EE66984E098C848B7184CBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testCucumbrish-testCucumbrishUITests/Pods-testCucumbrish-testCucumbrishUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testCucumbrish-testCucumbrishUITests/Pods-testCucumbrish-testCucumbrishUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testCucumbrish-testCucumbrishUITests/Pods-testCucumbrish-testCucumbrishUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EF4BB51EC6ACE1CEA2CBA23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testCucumbrish-testCucumbrishUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38CF9EAB71AB45C4526D6A6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testCucumbrishTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE3869459EE28589DC5FC6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testCucumbrish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7507ECB8291EF143005E8163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755CC7452984D94B00F38E2A /* SignupView.swift in Sources */,
+				7507ECC2291EF143005E8163 /* ContentView.swift in Sources */,
+				75FE7BA9297D712200281251 /* loginView.swift in Sources */,
+				755CC74E29856D1100F38E2A /* HomeView.swift in Sources */,
+				7507ECC0291EF143005E8163 /* testCucumbrishApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7507ECC8291EF144005E8163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FE7BAA297D712200281251 /* loginView.swift in Sources */,
+				7507ECD1291EF144005E8163 /* testCucumbrishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7507ECD2291EF144005E8163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7507ECDB291EF144005E8163 /* testCucumbrishUITests.swift in Sources */,
+				75954C3D291EF40300E0F01F /* CucumberishInitializer.swift in Sources */,
+				7507ECDD291EF144005E8163 /* testCucumbrishUITestsLaunchTests.swift in Sources */,
+				75954C3B291EF33800E0F01F /* CucumbrishLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7507ECCE291EF144005E8163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7507ECBB291EF143005E8163 /* testCucumbrish */;
+			targetProxy = 7507ECCD291EF144005E8163 /* PBXContainerItemProxy */;
+		};
+		7507ECD8291EF144005E8163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7507ECBB291EF143005E8163 /* testCucumbrish */;
+			targetProxy = 7507ECD7291EF144005E8163 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		755CC74B29856C9500F38E2A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				755CC74A29856C9500F38E2A /* fr */,
+				755CC74C29856CA400F38E2A /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7507ECDE291EF144005E8163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7507ECDF291EF144005E8163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7507ECE1291EF144005E8163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A4B6C780385BCBE5D43BE0 /* Pods-testCucumbrish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"testCucumbrish/Preview Content\"";
+				DEVELOPMENT_TEAM = 99QMU97Y3T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testCucumbrish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.testCucumbrish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7507ECE2291EF144005E8163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68995A37239AD523D1007ACF /* Pods-testCucumbrish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"testCucumbrish/Preview Content\"";
+				DEVELOPMENT_TEAM = 99QMU97Y3T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testCucumbrish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.testCucumbrish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7507ECE4291EF144005E8163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F975108913B92C222DE69F /* Pods-testCucumbrishTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99QMU97Y3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.testCucumbrishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testCucumbrish.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testCucumbrish";
+			};
+			name = Debug;
+		};
+		7507ECE5291EF144005E8163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E6C2214E5A210FD2D0254D /* Pods-testCucumbrishTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99QMU97Y3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.testCucumbrishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testCucumbrish.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testCucumbrish";
+			};
+			name = Release;
+		};
+		7507ECE7291EF144005E8163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52583686951AD81F1A869A00 /* Pods-testCucumbrish-testCucumbrishUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 99QMU97Y3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.testCucumbrishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "testCucumbrishUITests/testCucumbrishUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testCucumbrish;
+			};
+			name = Debug;
+		};
+		7507ECE8291EF144005E8163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3C860383522833CD4C4FD6 /* Pods-testCucumbrish-testCucumbrishUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 99QMU97Y3T;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.testCucumbrishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "testCucumbrishUITests/testCucumbrishUITests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testCucumbrish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7507ECB7291EF143005E8163 /* Build configuration list for PBXProject "testCucumbrish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7507ECDE291EF144005E8163 /* Debug */,
+				7507ECDF291EF144005E8163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7507ECE0291EF144005E8163 /* Build configuration list for PBXNativeTarget "testCucumbrish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7507ECE1291EF144005E8163 /* Debug */,
+				7507ECE2291EF144005E8163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7507ECE3291EF144005E8163 /* Build configuration list for PBXNativeTarget "testCucumbrishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7507ECE4291EF144005E8163 /* Debug */,
+				7507ECE5291EF144005E8163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7507ECE6291EF144005E8163 /* Build configuration list for PBXNativeTarget "testCucumbrishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7507ECE7291EF144005E8163 /* Debug */,
+				7507ECE8291EF144005E8163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7507ECB4291EF143005E8163 /* Project object */;
+}
